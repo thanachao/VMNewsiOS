@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63431960630B4F284147CFC1 /* Pods_VMNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2362EBE806C77E3643BA9177 /* Pods_VMNewsTests.framework */; };
+		72FF21EC1ED01B3100A98DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF21EB1ED01B3100A98DF1 /* main.m */; };
+		72FF21EF1ED01B3100A98DF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF21EE1ED01B3100A98DF1 /* AppDelegate.m */; };
+		72FF21F51ED01B3100A98DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FF21F31ED01B3100A98DF1 /* Main.storyboard */; };
+		72FF21F81ED01B3100A98DF1 /* VMNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72FF21F61ED01B3100A98DF1 /* VMNews.xcdatamodeld */; };
+		72FF21FA1ED01B3B00A98DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF21F91ED01B3B00A98DF1 /* Assets.xcassets */; };
+		72FF21FD1ED01B3B00A98DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FF21FB1ED01B3B00A98DF1 /* LaunchScreen.storyboard */; };
+		72FF22081ED01B3B00A98DF1 /* VMNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF22071ED01B3B00A98DF1 /* VMNewsTests.m */; };
+		72FF22181ED01C5A00A98DF1 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF22171ED01C5A00A98DF1 /* NewsTableViewCell.m */; };
+		72FF221B1ED01C7300A98DF1 /* ListNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF221A1ED01C7300A98DF1 /* ListNewsViewController.m */; };
+		72FF22211ED01CBF00A98DF1 /* NewsResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF221F1ED01CBF00A98DF1 /* NewsResponseModel.m */; };
+		72FF22341ED07F7400A98DF1 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF22331ED07F7400A98DF1 /* NewsModel.m */; };
+		72FF22371ED1246A00A98DF1 /* VMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FF22361ED1246A00A98DF1 /* VMUtils.m */; };
+		A3F69A09B84D3C55ACECE5DA /* Pods_VMNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EC907FFDFD5C2F4865DFA3 /* Pods_VMNews.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72FF22041ED01B3B00A98DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FF21DF1ED01B3100A98DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FF21E61ED01B3100A98DF1;
+			remoteInfo = VMNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F83B3BCB89D3DBD519CFC9B /* Pods-VMNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMNews/Pods-VMNews.debug.xcconfig"; sourceTree = "<group>"; };
+		2362EBE806C77E3643BA9177 /* Pods_VMNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6344F96E64272A8DAA628A9C /* Pods-VMNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMNews/Pods-VMNews.release.xcconfig"; sourceTree = "<group>"; };
+		72FF21E71ED01B3100A98DF1 /* VMNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF21EB1ED01B3100A98DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72FF21ED1ED01B3100A98DF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72FF21EE1ED01B3100A98DF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72FF21F41ED01B3100A98DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72FF21F71ED01B3100A98DF1 /* VMNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VMNews.xcdatamodel; sourceTree = "<group>"; };
+		72FF21F91ED01B3B00A98DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FF21FC1ED01B3B00A98DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72FF21FE1ED01B3B00A98DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FF22031ED01B3B00A98DF1 /* VMNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF22071ED01B3B00A98DF1 /* VMNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNewsTests.m; sourceTree = "<group>"; };
+		72FF22091ED01B3B00A98DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FF22161ED01C5A00A98DF1 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		72FF22171ED01C5A00A98DF1 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		72FF22191ED01C7300A98DF1 /* ListNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNewsViewController.h; sourceTree = "<group>"; };
+		72FF221A1ED01C7300A98DF1 /* ListNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNewsViewController.m; sourceTree = "<group>"; };
+		72FF221E1ED01CBF00A98DF1 /* NewsResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsResponseModel.h; sourceTree = "<group>"; };
+		72FF221F1ED01CBF00A98DF1 /* NewsResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsResponseModel.m; sourceTree = "<group>"; };
+		72FF22221ED01D1C00A98DF1 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		72FF22261ED022A900A98DF1 /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSONModel.a; path = "../../../../Library/Developer/Xcode/DerivedData/VMNews-epbuphwcpqwhefdbqcimatzueprb/Build/Products/Debug-iphoneos/JSONModel/libJSONModel.a"; sourceTree = "<group>"; };
+		72FF22281ED022B600A98DF1 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../Library/Developer/Xcode/DerivedData/VMNews-epbuphwcpqwhefdbqcimatzueprb/Build/Products/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		72FF22321ED07F7400A98DF1 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		72FF22331ED07F7400A98DF1 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		72FF22351ED1246A00A98DF1 /* VMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUtils.h; sourceTree = "<group>"; };
+		72FF22361ED1246A00A98DF1 /* VMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUtils.m; sourceTree = "<group>"; };
+		87EC907FFDFD5C2F4865DFA3 /* Pods_VMNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E878A546A0B94D47CB4B451A /* Pods-VMNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMNewsTests/Pods-VMNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1D6CE12D61C95027E90C20 /* Pods-VMNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMNewsTests/Pods-VMNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72FF21E41ED01B3100A98DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F69A09B84D3C55ACECE5DA /* Pods_VMNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FF22001ED01B3B00A98DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63431960630B4F284147CFC1 /* Pods_VMNewsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDA37BE379B8250648F1E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F83B3BCB89D3DBD519CFC9B /* Pods-VMNews.debug.xcconfig */,
+				6344F96E64272A8DAA628A9C /* Pods-VMNews.release.xcconfig */,
+				E878A546A0B94D47CB4B451A /* Pods-VMNewsTests.debug.xcconfig */,
+				FD1D6CE12D61C95027E90C20 /* Pods-VMNewsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72FF21DE1ED01B3100A98DF1 = {
+			isa = PBXGroup;
+			children = (
+				72FF21E91ED01B3100A98DF1 /* VMNews */,
+				72FF22061ED01B3B00A98DF1 /* VMNewsTests */,
+				72FF21E81ED01B3100A98DF1 /* Products */,
+				1CDA37BE379B8250648F1E24 /* Pods */,
+				772AA20DAC4D189131E40845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72FF21E81ED01B3100A98DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72FF21E71ED01B3100A98DF1 /* VMNews.app */,
+				72FF22031ED01B3B00A98DF1 /* VMNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72FF21E91ED01B3100A98DF1 /* VMNews */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22141ED01C3400A98DF1 /* ViewController */,
+				72FF22131ED01C2E00A98DF1 /* Model */,
+				72FF22121ED01C2600A98DF1 /* Common */,
+				72FF21ED1ED01B3100A98DF1 /* AppDelegate.h */,
+				72FF21EE1ED01B3100A98DF1 /* AppDelegate.m */,
+				72FF22351ED1246A00A98DF1 /* VMUtils.h */,
+				72FF22361ED1246A00A98DF1 /* VMUtils.m */,
+				72FF21F31ED01B3100A98DF1 /* Main.storyboard */,
+				72FF21F91ED01B3B00A98DF1 /* Assets.xcassets */,
+				72FF21FB1ED01B3B00A98DF1 /* LaunchScreen.storyboard */,
+				72FF21FE1ED01B3B00A98DF1 /* Info.plist */,
+				72FF21F61ED01B3100A98DF1 /* VMNews.xcdatamodeld */,
+				72FF21EA1ED01B3100A98DF1 /* Supporting Files */,
+			);
+			path = VMNews;
+			sourceTree = "<group>";
+		};
+		72FF21EA1ED01B3100A98DF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72FF21EB1ED01B3100A98DF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72FF22061ED01B3B00A98DF1 /* VMNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22071ED01B3B00A98DF1 /* VMNewsTests.m */,
+				72FF22091ED01B3B00A98DF1 /* Info.plist */,
+			);
+			path = VMNewsTests;
+			sourceTree = "<group>";
+		};
+		72FF22121ED01C2600A98DF1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22221ED01D1C00A98DF1 /* common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		72FF22131ED01C2E00A98DF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FF221E1ED01CBF00A98DF1 /* NewsResponseModel.h */,
+				72FF221F1ED01CBF00A98DF1 /* NewsResponseModel.m */,
+				72FF22321ED07F7400A98DF1 /* NewsModel.h */,
+				72FF22331ED07F7400A98DF1 /* NewsModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72FF22141ED01C3400A98DF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22191ED01C7300A98DF1 /* ListNewsViewController.h */,
+				72FF221A1ED01C7300A98DF1 /* ListNewsViewController.m */,
+				72FF22151ED01C3C00A98DF1 /* Cell */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		72FF22151ED01C3C00A98DF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22161ED01C5A00A98DF1 /* NewsTableViewCell.h */,
+				72FF22171ED01C5A00A98DF1 /* NewsTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		772AA20DAC4D189131E40845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72FF22281ED022B600A98DF1 /* libAFNetworking.a */,
+				72FF22261ED022A900A98DF1 /* libJSONModel.a */,
+				87EC907FFDFD5C2F4865DFA3 /* Pods_VMNews.framework */,
+				2362EBE806C77E3643BA9177 /* Pods_VMNewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72FF21E61ED01B3100A98DF1 /* VMNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FF220C1ED01B3B00A98DF1 /* Build configuration list for PBXNativeTarget "VMNews" */;
+			buildPhases = (
+				C5E3C6B0A9A4EBEAB951BA7E /* [CP] Check Pods Manifest.lock */,
+				72FF21E31ED01B3100A98DF1 /* Sources */,
+				72FF21E41ED01B3100A98DF1 /* Frameworks */,
+				72FF21E51ED01B3100A98DF1 /* Resources */,
+				6C67FFB9B4DE06C2D178C325 /* [CP] Embed Pods Frameworks */,
+				AEE5183F64AAEBE5621CDE71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMNews;
+			productName = VMNews;
+			productReference = 72FF21E71ED01B3100A98DF1 /* VMNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72FF22021ED01B3B00A98DF1 /* VMNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FF220F1ED01B3B00A98DF1 /* Build configuration list for PBXNativeTarget "VMNewsTests" */;
+			buildPhases = (
+				806C289EE6906334761CA705 /* [CP] Check Pods Manifest.lock */,
+				72FF21FF1ED01B3B00A98DF1 /* Sources */,
+				72FF22001ED01B3B00A98DF1 /* Frameworks */,
+				72FF22011ED01B3B00A98DF1 /* Resources */,
+				B1BE2F52C26A82296EEB9240 /* [CP] Embed Pods Frameworks */,
+				5D8B388B00BE966056BE338F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FF22051ED01B3B00A98DF1 /* PBXTargetDependency */,
+			);
+			name = VMNewsTests;
+			productName = VMNewsTests;
+			productReference = 72FF22031ED01B3B00A98DF1 /* VMNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72FF21DF1ED01B3100A98DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Thanachao Luengwitayakorn";
+				TargetAttributes = {
+					72FF21E61ED01B3100A98DF1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9TXRYS3EGG;
+						ProvisioningStyle = Automatic;
+					};
+					72FF22021ED01B3B00A98DF1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9TXRYS3EGG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72FF21E61ED01B3100A98DF1;
+					};
+				};
+			};
+			buildConfigurationList = 72FF21E21ED01B3100A98DF1 /* Build configuration list for PBXProject "VMNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72FF21DE1ED01B3100A98DF1;
+			productRefGroup = 72FF21E81ED01B3100A98DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72FF21E61ED01B3100A98DF1 /* VMNews */,
+				72FF22021ED01B3B00A98DF1 /* VMNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FF21E51ED01B3100A98DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF21FD1ED01B3B00A98DF1 /* LaunchScreen.storyboard in Resources */,
+				72FF21FA1ED01B3B00A98DF1 /* Assets.xcassets in Resources */,
+				72FF21F51ED01B3100A98DF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FF22011ED01B3B00A98DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D8B388B00BE966056BE338F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMNewsTests/Pods-VMNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C67FFB9B4DE06C2D178C325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMNews/Pods-VMNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806C289EE6906334761CA705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE5183F64AAEBE5621CDE71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMNews/Pods-VMNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BE2F52C26A82296EEB9240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMNewsTests/Pods-VMNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E3C6B0A9A4EBEAB951BA7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72FF21E31ED01B3100A98DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF22371ED1246A00A98DF1 /* VMUtils.m in Sources */,
+				72FF22181ED01C5A00A98DF1 /* NewsTableViewCell.m in Sources */,
+				72FF21EF1ED01B3100A98DF1 /* AppDelegate.m in Sources */,
+				72FF22211ED01CBF00A98DF1 /* NewsResponseModel.m in Sources */,
+				72FF21EC1ED01B3100A98DF1 /* main.m in Sources */,
+				72FF21F81ED01B3100A98DF1 /* VMNews.xcdatamodeld in Sources */,
+				72FF221B1ED01C7300A98DF1 /* ListNewsViewController.m in Sources */,
+				72FF22341ED07F7400A98DF1 /* NewsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FF21FF1ED01B3B00A98DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF22081ED01B3B00A98DF1 /* VMNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72FF22051ED01B3B00A98DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FF21E61ED01B3100A98DF1 /* VMNews */;
+			targetProxy = 72FF22041ED01B3B00A98DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72FF21F31ED01B3100A98DF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72FF21F41ED01B3100A98DF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72FF21FB1ED01B3B00A98DF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72FF21FC1ED01B3B00A98DF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72FF220A1ED01B3B00A98DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72FF220B1ED01B3B00A98DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72FF220D1ED01B3B00A98DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F83B3BCB89D3DBD519CFC9B /* Pods-VMNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TXRYS3EGG;
+				INFOPLIST_FILE = VMNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalvm.VMNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72FF220E1ED01B3B00A98DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6344F96E64272A8DAA628A9C /* Pods-VMNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TXRYS3EGG;
+				INFOPLIST_FILE = VMNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalvm.VMNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72FF22101ED01B3B00A98DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E878A546A0B94D47CB4B451A /* Pods-VMNewsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TXRYS3EGG;
+				INFOPLIST_FILE = VMNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalvm.VMNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMNews.app/VMNews";
+			};
+			name = Debug;
+		};
+		72FF22111ED01B3B00A98DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1D6CE12D61C95027E90C20 /* Pods-VMNewsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TXRYS3EGG;
+				INFOPLIST_FILE = VMNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalvm.VMNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMNews.app/VMNews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72FF21E21ED01B3100A98DF1 /* Build configuration list for PBXProject "VMNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF220A1ED01B3B00A98DF1 /* Debug */,
+				72FF220B1ED01B3B00A98DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FF220C1ED01B3B00A98DF1 /* Build configuration list for PBXNativeTarget "VMNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF220D1ED01B3B00A98DF1 /* Debug */,
+				72FF220E1ED01B3B00A98DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FF220F1ED01B3B00A98DF1 /* Build configuration list for PBXNativeTarget "VMNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF22101ED01B3B00A98DF1 /* Debug */,
+				72FF22111ED01B3B00A98DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72FF21F61ED01B3100A98DF1 /* VMNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72FF21F71ED01B3100A98DF1 /* VMNews.xcdatamodel */,
+			);
+			currentVersion = 72FF21F71ED01B3100A98DF1 /* VMNews.xcdatamodel */;
+			path = VMNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72FF21DF1ED01B3100A98DF1 /* Project object */;
+}
